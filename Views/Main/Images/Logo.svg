@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="679px" height="138px" viewBox="0 0 679 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(179.000000, 1.000000)">
+            <text id="backupMagic" font-family="ProductSans-Bold, Product Sans" font-size="72" font-weight="bold" fill="#3E71E1">
+                <tspan x="27.772" y="85">backupMagic</tspan>
+            </text>
+            <rect id="Rectangle-2" stroke="#3E71E1" stroke-width="10" x="5" y="5" width="490" height="125"></rect>
+        </g>
+        <g id="Group-2" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" stroke="#3E71E1" stroke-width="4">
+            <g id="Group" transform="translate(0.000000, 70.000000)">
+                <path d="M0.0567921916,42.4778761 L0,42.4778761 L0,20.3893805 L137,20.3893805 L137,42.4778761 L136.943208,42.4778761 C136.980948,42.7596412 137,43.0428659 137,43.3274336 C137,54.7445768 106.331505,64 68.5,64 C30.6684946,64 0,54.7445768 0,43.3274336 C0,43.0428659 0.0190523603,42.7596412 0.0567931208,42.4778692 Z" id="Combined-Shape"></path>
+                <ellipse id="Oval" cx="68.5" cy="20.6725664" rx="68.5" ry="20.6725664"></ellipse>
+            </g>
+            <g id="Group" transform="translate(0.000000, 34.000000)">
+                <path d="M0.0567921916,42.4778761 L0,42.4778761 L0,20.3893805 L137,20.3893805 L137,42.4778761 L136.943208,42.4778761 C136.980948,42.7596412 137,43.0428659 137,43.3274336 C137,54.7445768 106.331505,64 68.5,64 C30.6684946,64 0,54.7445768 0,43.3274336 C0,43.0428659 0.0190523603,42.7596412 0.0567931208,42.4778692 Z" id="Combined-Shape"></path>
+                <ellipse id="Oval" cx="68.5" cy="20.6725664" rx="68.5" ry="20.6725664"></ellipse>
+            </g>
+            <g id="Group">
+                <path d="M0.0567921916,42.4778761 L0,42.4778761 L0,20.3893805 L137,20.3893805 L137,42.4778761 L136.943208,42.4778761 C136.980948,42.7596412 137,43.0428659 137,43.3274336 C137,54.7445768 106.331505,64 68.5,64 C30.6684946,64 0,54.7445768 0,43.3274336 C0,43.0428659 0.0190523603,42.7596412 0.0567931208,42.4778692 Z" id="Combined-Shape"></path>
+                <ellipse id="Oval" cx="68.5" cy="20.6725664" rx="68.5" ry="20.6725664"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

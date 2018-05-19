@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(241, 241, 241);
+}
+
+.card {
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #3E71E1;
+    width: calc(100% - 60px);
+    background: white;
+    border-radius: 10px 10px 0 0 ;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: .3s;
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(104, 147, 240);
+    border-radius: 20px;
+}
+
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(104, 147, 240);
+    border-radius: 20px;
+}
+
+select {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid rgb(104, 147, 240);
+    border-radius: 20px;
+    color: rgb(47, 97, 206);
+    background: transparent;
+    transition: .3s;
+}
+
+button:hover {
+    background: rgb(47, 97, 206);
+    border: 2px solid rgb(47, 97, 206);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    font-size: 12px;
+    color: rgb(100, 100, 100);
+}
+
+#settings {
+    position: fixed;
+    right: 30px;
+    top: 0px;
+    transition: 3s;
+}
+
+a:hover #settings {
+    animation: rotating 2s linear infinite;
+}
+
+.label {
+    position: fixed;
+    font-size: 10px;
+    right: 30px;
+    top: 40px;
+    color: rgb(100, 100, 100);
+}
+
+@keyframes rotating {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+#setting-modal {
+    transition: .5s;
+    position: fixed;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 100;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    padding: 140px;
+    padding-top: 180px;
+}
+
+#setting-modal p {
+    padding: 15px;
+}
+
+#setting-modal label {
+    padding-top: 10px;
+}
+
+#setting-modal img {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.setting-field {
+    width: 200px !important;
+}

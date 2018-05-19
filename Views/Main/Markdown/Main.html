@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>backupMagic</title>
+        <link rel="stylesheet" href="./../Styles/Main.css" />
+        <script src="./../Scripts/Main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img src="./../Images/Logo.svg" height="40" alt="Logo" />
+            <a id="show-modal">
+                <img width="45" id="settings" src="./../Images/Settings.svg" alt="Settings">
+                <span class="label">Настройки</span>
+            </a>
+        </header>
+
+        <div class="card">
+            <h2>Резервные копии:</h2>
+            <input type="text" id="search" placeholder="Поиск копии" />
+            <select id="backupList"></select>
+            <center>
+                <button onclick="restore()">Востановить из копии</button>
+                <button onclick="restoreBackup()">Скачать копию с сервера</button>
+                <br><br>
+                <label for="restore-folder">Востановить в...</label>
+                <input id="restore-folder" type="file" webkitdirectory directory />
+            </center>
+        </div>
+
+        <div class="card">
+            <h2>Создать новую копию:</h2>
+            <input id="folderToCopyInput" type="file" webkitdirectory directory />
+            <button id="createCopyButton">Создать копию</button>
+        </div>
+
+        <footer>
+            backupMagic v.0.4.1
+        </footer>
+
+        <div id="setting-modal">
+            <img width="300" src="./../Images/ftp.svg" alt="FTP">
+
+            <label for="host-field">FTP Сервер:</label>
+            <input id="host-field" class="setting-field" type="text" placeholder="0.0.0.0">
+            <label for="port-field">Порт:</label>
+            <input id="port-field" class="setting-field" type="text" placeholder="21">
+            
+            <label for="user-field">Пользователь:</label>
+            <input id="user-field" class="setting-field" type="text" placeholder="anonymous">
+            <label for="pass-field">Пароль:</label>
+            <input id="pass-field" class="setting-field" type="password" placeholder="anonymous">
+            
+            <label for="path-field">Сохранять в:</label>
+            <input id="path-field" class="setting-field" type="text" placeholder="/path/on/the/server">
+
+            <p id="hide-modal">ЗАКРЫТЬ МЕНЮ НАСТРОЕК</p>
+        </div>
+    </body>
+</html>
